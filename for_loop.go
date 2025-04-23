@@ -15,7 +15,7 @@ func main() {
 	}
 
 	for i := 1; i <= 10; i++ {
-		if i%2 == 0 {
+		if i % 2 == 0 {
 			continue
 		}
 		fmt.Println(i)
@@ -38,7 +38,7 @@ func main() {
 		fmt.Println()
 	}
 
-	for i:= range 10 {
+	for i := range 10 {
 		i++
 		fmt.Println(i)
 	}
